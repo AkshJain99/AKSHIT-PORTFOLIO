@@ -23,7 +23,7 @@ const greeting = {
   username: "AKSHIT",
   title: "Hi all, I'm AKSHIT JAIN",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Angular / Django / Flask and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web Applications and Saas Product with JavaScript / Reactjs / Angular / Django / Flask and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -142,7 +142,7 @@ const educationInfo = {
       logo: require("./assets/images/smvdu1.jpg"),
       subHeader: "Bachelors of Engineering in Computer Science",
       duration: "July 2017 - July 2021",
-      desc: "Started First GDSC club by google at Universty campus.",
+      desc: "Started First GDSC club by google at University campus.",
       descBullets: [
         
       ]
