@@ -153,23 +153,48 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend Development (Reactjs, Angular 8+)", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend Development (React.js, Angular 8+, Stenciljs , HTML, Tailwind CSS)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend (Django, flask)",
+      Stack: "Backend Development (Django, Flask, Django rest framework)",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "DSA/algo",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "DevOps (Docker, Kubernetes, Jenkins, CI/CD)",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Databases (MySQL, PostgreSQL)",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Data Engineering (ETL/ELT Pipelines, Integrations, Inframanager)",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "Other Skills (Kanban, Problem Solving, Automated Unit Testing, Agile/Scrum Methodologies, Git/Mercurial, Karma.js, Jasmine)",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Team Leadership & Architecture",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Kafka, RabbitMQ, Redis",
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display Codersrank badges section; needs changes to your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
+
 
 // Work experience section
 
